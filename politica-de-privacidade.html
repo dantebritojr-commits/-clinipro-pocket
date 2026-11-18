@@ -1,66 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Política de Privacidade — CliniPro · 2026</title>
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #1a1a2e; max-width: 760px; margin: 0 auto; padding: 32px 20px; }
-    h1 { font-size: 26px; }
-    h2 { font-size: 19px; margin-top: 28px; border-bottom: 1px solid #eee; padding-bottom: 6px; }
-    h3 { font-size: 16px; margin-top: 18px; }
-    code { background: #f4f4f6; padding: 1px 5px; border-radius: 4px; font-size: 90%; }
-    .muted { color: #6b7280; font-size: 14px; }
-    ul { padding-left: 20px; }
-    .box { background: #f8f8fb; border: 1px solid #ececf2; border-radius: 10px; padding: 14px 18px; }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Política de Privacidade — CliniPro</title>
+<style>body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6;color:#1a1a2e;max-width:760px;margin:0 auto;padding:32px 20px;background:#fff}
+h1{font-size:26px}h2{font-size:19px;margin-top:28px;border-bottom:1px solid #eee;padding-bottom:6px}
+code{background:#f4f4f6;padding:1px 5px;border-radius:4px;font-size:90%}ul{padding-left:20px}</style>
 </head>
 <body>
-  <h1>Política de Privacidade — CliniPro · 2026</h1>
-  <p class="muted">Última atualização: 28 de junho de 2026</p>
-
-  <p>A extensão <strong>CliniPro · 2026</strong> ("a extensão") é uma ferramenta de apoio à comunicação para equipes de clínicas. Esta política descreve, de forma transparente, quais dados a extensão acessa, para quê, e para onde eles vão.</p>
-
-  <div class="box">
-    <strong>Resumo honesto:</strong> a extensão <strong>não coleta, não vende e não compartilha</strong> dados pessoais para publicidade ou análise. Não possui servidores próprios de coleta. Ela apenas assiste o usuário <strong>dentro das páginas onde ele já trabalha</strong> (Kommo, WhatsApp Web e o chat CliniChat).
-  </div>
-
-  <h2>O que a extensão acessa e por quê</h2>
-
-  <h3>1. Assinatura de mensagens (Kommo e WhatsApp Web)</h3>
-  <ul>
-    <li><strong>O que faz:</strong> insere automaticamente um texto de assinatura no campo de mensagem que o próprio usuário está digitando.</li>
-    <li><strong>Dados acessados:</strong> o nome do usuário logado no Kommo (para compor a assinatura) e o texto digitado no campo de mensagem.</li>
-    <li><strong>Onde ficam:</strong> as preferências de assinatura ficam <strong>somente no seu navegador</strong> (armazenamento local da extensão). Nada é enviado para fora.</li>
-  </ul>
-
-  <h3>2. CliniChat — notificações e envio de mídia</h3>
-  <ul>
-    <li><strong>O que faz:</strong> exibe notificações visuais e sonoras de novas mensagens do chat de atendimento e permite enviar <strong>áudios</strong> (gravados pelo microfone) e <strong>arquivos/vídeos</strong> dentro do chat.</li>
-    <li><strong>Dados acessados:</strong> o nome do remetente e uma prévia da mensagem (para a notificação); os arquivos/áudios que o <strong>próprio usuário escolhe enviar</strong>.</li>
-    <li><strong>Para onde vão os arquivos/mídias:</strong> quando o usuário decide enviar, o conteúdo é carregado para um serviço de armazenamento <strong>apenas para gerar o link compartilhado na conversa</strong>. Esse envio é iniciado pelo usuário, nunca automático.</li>
-    <li><strong>Microfone:</strong> usado exclusivamente quando o usuário toca em "gravar áudio". Nenhuma captura em segundo plano.</li>
-  </ul>
-
-  <h3>3. Controle de disponibilidade</h3>
-  <p>A extensão consulta periodicamente um arquivo de configuração remoto que indica apenas se o acesso está <strong>ativo ou suspenso</strong>. Nenhum dado pessoal é enviado nessa consulta.</p>
-
-  <h2>O que a extensão NÃO acessa</h2>
-  <ul>
-    <li>Não acessa prontuários, dados clínicos ou financeiros de pacientes.</li>
-    <li>Não acessa histórico de navegação.</li>
-    <li>Não usa cookies de rastreamento, analytics ou publicidade.</li>
-  </ul>
-
-  <h2>Compartilhamento de dados</h2>
-  <p>A extensão <strong>não compartilha dados com terceiros</strong>, exceto os arquivos e áudios que o próprio usuário decide enviar, carregados para o serviço de armazenamento unicamente para serem compartilhados na conversa, por ação direta do usuário.</p>
-
-  <h2>Retenção</h2>
-  <p>As preferências ficam no navegador do usuário até que ele as apague ou remova a extensão. Arquivos/áudios enviados seguem a política de retenção do serviço de armazenamento da clínica.</p>
-
-  <h2>Contato</h2>
-  <p>Dúvidas sobre esta política: <strong>dantebritojr@gmail.com</strong>.</p>
-
-  <p class="muted">Esta extensão é de distribuição privada (não listada) para clínicas parceiras.</p>
+<h1>Política de Privacidade — CliniPro (extensão para Chrome)</h1>
+<p><strong>Última atualização:</strong> 18 de novembro de 2026 (versão 1.5)</p>
+<p>A extensão <strong>CliniPro</strong> ("a extensão") é uma ferramenta de apoio para equipes de clínicas que usam o sistema Clinicorp. Esta política descreve quais dados a extensão acessa, para quê, para onde vão e por quanto tempo ficam.</p>
+<h2>Resumo</h2>
+<ul>
+<li>A extensão <strong>não vende, não cede e não usa dados para publicidade ou análise</strong>. Não há rastreadores.</li>
+<li>Dois recursos (Assinatura e Notificações) funcionam <strong>sem acessar dado de paciente</strong>.</li>
+<li>Dois recursos (Calculadora de Precificação e Agenda Financeira) <strong>só funcionam com a senha de acesso da clínica</strong>, conferida no servidor da CliniPro. A Agenda Financeira <strong>lê dados de pacientes</strong> (identificação, situação do tratamento e financeiro) a partir desse servidor, exclusivamente para a equipe da própria clínica organizar a cobrança.</li>
+</ul>
+<h2>1. Assinatura de mensagens (Kommo e WhatsApp Web)</h2>
+<ul>
+<li><strong>O que faz:</strong> insere um texto de assinatura no campo de mensagem que o próprio usuário está digitando.</li>
+<li><strong>Dados:</strong> o nome do usuário logado no Kommo e o texto digitado no campo.</li>
+<li><strong>Onde ficam:</strong> preferências <strong>somente no navegador</strong> (armazenamento local da extensão). Nada sai do navegador.</li>
+</ul>
+<h2>2. ChatPro · Notificações (chat de equipe do Clinicorp)</h2>
+<ul>
+<li><strong>O que faz:</strong> mostra um aviso na tela e um som quando chega mensagem nova no chat de equipe, com o nome de quem chamou.</li>
+<li><strong>Dados:</strong> nome do remetente e contagem de mensagens não lidas (lidos da página do chat); a lista de "para quem avisar", configurada pela clínica.</li>
+<li><strong>Onde ficam:</strong> a configuração de notificação fica no servidor da CliniPro (Supabase), por clínica, e em cache no navegador. O conteúdo das mensagens <strong>não</strong> é enviado a lugar nenhum.</li>
+</ul>
+<h2>3. Calculadora de Precificação</h2>
+<ul>
+<li><strong>O que faz:</strong> calcula custo da hora clínica e preço de procedimentos a partir de custos digitados pela clínica.</li>
+<li><strong>Dados:</strong> os custos, diárias e procedimentos digitados (conteúdo do usuário; sem dado de paciente).</li>
+<li><strong>Onde ficam:</strong> no servidor da CliniPro (Supabase), por clínica, e em cache no navegador. Acesso só com a senha da clínica.</li>
+</ul>
+<h2>4. Agenda Financeira</h2>
+<ul>
+<li><strong>O que faz:</strong> mostra, dentro da página do Clinicorp, a lista de pacientes com parcelas em atraso ou em risco, para a equipe organizar a cobrança; permite gerar uma folha impressa (PDF) dessa lista e atualizar os dados de um paciente.</li>
+<li><strong>Dados acessados (lidos do servidor da CliniPro, que os sincroniza do Clinicorp da clínica):</strong></li>
+<li><strong>Identificação pessoal:</strong> nome e telefone do paciente.</li>
+<li><strong>Saúde:</strong> situação do plano de tratamento odontológico (em andamento, concluído, cancelado) e procedimentos executados, usados só para classificar a situação financeira.</li>
+<li><strong>Financeiro:</strong> parcelas, valores pagos, em aberto e em atraso.</li>
+<li><strong>Para onde vão:</strong> do servidor da CliniPro para o navegador do usuário autenticado pela senha da clínica. A folha impressa é gerada no servidor da CliniPro (conversão HTML → PDF) a partir da lista exibida e devolvida ao navegador; o servidor não guarda a folha.</li>
+<li><strong>Onde ficam:</strong> a lista fica <strong>só na memória da página</strong> enquanto o painel está aberto. <strong>Nada da Agenda Financeira é gravado no navegador</strong>; ao fechar a página, recusar ou revogar a senha, ela some.</li>
+<li><strong>Quem acessa:</strong> só quem tem a senha de acesso da clínica. A senha é conferida no servidor; a extensão não contém senha nem credencial no código.</li>
+</ul>
+<h2>5. Senha de acesso (autenticação)</h2>
+<ul>
+<li>A senha da clínica é enviada ao servidor da CliniPro em toda chamada da Agenda e da Calculadora, para conferência. O servidor guarda apenas um hash da senha. No navegador, ela vale pela <strong>sessão</strong> (fecha o navegador, pede de novo) e <strong>não é gravada em disco</strong>.</li>
+<li>Se a senha for revogada, a extensão apaga a senha da sessão e os dados da Agenda em memória e volta a pedir a senha.</li>
+</ul>
+<h2>6. Controle de disponibilidade</h2>
+<p>A extensão consulta periodicamente um arquivo remoto (GitHub) que indica apenas se o acesso está ativo ou suspenso. Nenhum dado pessoal é enviado nessa consulta.</p>
+<h2>O que a extensão NÃO faz</h2>
+<ul>
+<li>Não envia mensagens, não faz disparos, não lê listas de contatos do WhatsApp/Kommo.</li>
+<li>Não acessa histórico de navegação; não usa cookies de rastreamento, analytics ou publicidade.</li>
+<li>Não usa inteligência artificial generativa e não envia dados a provedores de IA.</li>
+<li>Não vende, não cede e não usa dados de pacientes para fins de crédito, publicidade ou qualquer finalidade além do propósito único descrito.</li>
+</ul>
+<h2>Permissões</h2>
+<ul>
+<li><strong>storage:</strong> preferências, configuração de notificação, cache da Calculadora (a Agenda não grava nada) e estado do controle de disponibilidade. Senha só em <code>storage.session</code>.</li>
+<li><strong>tabs:</strong> saber em qual site a aba está, para o ícone ativo/inativo.</li>
+<li><strong>alarms:</strong> reverificar periodicamente o controle de disponibilidade.</li>
+<li><strong>Acesso a <code>sistema.clinicorp.com</code>:</strong> exibir o painel da extensão (iframe) na página do sistema da clínica e as notificações; ler o nome do usuário logado.</li>
+<li><strong>Acesso a <code>servicedesk.clinicorp.tech</code>:</strong> detectar mensagens novas no chat.</li>
+<li><strong>Acesso a <code>freitascodigital.kommo.com</code> e <code>web.whatsapp.com</code>:</strong> inserir a assinatura.</li>
+<li><strong>Acesso a <code>raw.githubusercontent.com</code>:</strong> ler o arquivo de disponibilidade.</li>
+</ul>
+<h2>Compartilhamento, retenção e base legal</h2>
+<ul>
+<li>Os dados de pacientes são tratados <strong>em nome da clínica</strong> (operador), que é a controladora perante a LGPD, e circulam apenas entre o Clinicorp da clínica, o servidor da CliniPro e o navegador dos usuários autorizados pela clínica. Não há compartilhamento com terceiros fora dessa cadeia (o servidor usa infraestrutura Supabase; a conversão em PDF usa um serviço de renderização operado pela CliniPro).</li>
+<li>Retenção no navegador: preferências até o usuário apagá-las ou remover a extensão; a Agenda não guarda dados no navegador. Retenção no servidor: conforme o contrato da clínica com a CliniPro.</li>
+<li>Direitos dos titulares (acesso, correção, eliminação) são exercidos junto à clínica, que os encaminha à CliniPro.</li>
+</ul>
+<h2>Contato</h2>
+<p>Dúvidas sobre esta política: <strong>dantebritojr@gmail.com</strong>.</p>
+<p><em>Extensão de distribuição privada (não listada) para clínicas atendidas pela CliniPro.</em></p>
 </body>
 </html>
